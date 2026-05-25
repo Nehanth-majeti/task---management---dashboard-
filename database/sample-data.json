@@ -1,0 +1,48 @@
+{
+  "users": [
+    {
+      "name": "Jane Doe",
+      "email": "jane@example.com",
+      "password": "$2a$10$UnC3aYjQzC8hXf7p0Z/3ueC1gW93ZlqW/vP1gMvN9o.vA/tO2s61i"
+    },
+    {
+      "name": "John Smith",
+      "email": "john@example.com",
+      "password": "$2a$10$UnC3aYjQzC8hXf7p0Z/3ueC1gW93ZlqW/vP1gMvN9o.vA/tO2s61i"
+    }
+  ],
+  "tasks": [
+    {
+      "userEmail": "jane@example.com",
+      "title": "Design Dashboard Mockups",
+      "description": "Create high-fidelity landing page and dashboard screen visuals with dark/light themes.",
+      "status": "In Progress",
+      "priority": "High",
+      "dueDate": "2026-05-30T12:00:00.000Z"
+    },
+    {
+      "userEmail": "jane@example.com",
+      "title": "Set up Database Schemas",
+      "description": "Define models for User and Task collections and setup connection logic.",
+      "status": "Completed",
+      "priority": "High",
+      "dueDate": "2026-05-24T18:00:00.000Z"
+    },
+    {
+      "userEmail": "jane@example.com",
+      "title": "Integrate JWT Middleware",
+      "description": "Add token validation routes and secure backend tasks API paths.",
+      "status": "Pending",
+      "priority": "Medium",
+      "dueDate": "2026-06-02T10:00:00.000Z"
+    },
+    {
+      "userEmail": "john@example.com",
+      "title": "Review Marketing Strategy",
+      "description": "Prepare notes for next week's presentation on digital customer outreach campaigns.",
+      "status": "Pending",
+      "priority": "Low",
+      "dueDate": "2026-06-05T09:00:00.000Z"
+    }
+  ]
+}
